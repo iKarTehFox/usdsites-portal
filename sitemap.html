@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="prevent-selection">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,17 +7,25 @@
     <link href="./css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css" rel="stylesheet">
 	<link href="./css/global.css" rel="stylesheet">
 	<script src="./js/code.iconify.design_1_1.0.6_iconify.min.js"></script>
+    <script src="./js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
   </head>
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">USD - Home</a>
+    <a class="navbar-brand ml-5" href="#">
+      <img src="./sitemap-icon.ico" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+      USD - Home
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " href="./index.html">Home</a>
+          <a class="nav-link" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Sitemap</a>
@@ -28,15 +36,14 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./2048/index.html"><b>2048</b> by Gabriele Cirulli</a></li>
-            <li><a class="dropdown-item" href="./TetrisJS/index.html"><b>TetrisJS</b> by Neil Barkhina</a></li>
             <li><a class="dropdown-item" href="./Astray/index.html"><b>Astray</b> by Rye Terrell</a></li>
+            <li><a class="dropdown-item" href="./Hextris/index.html"><b>Hextris</b> by Logan Engstrom, and more</a></li>
+            <li><a class="dropdown-item" href="https://reactle.vercel.app/"><b>Reactle</b> by Chase Wackerfuss <span class="badge text-bg-warning">External</span></a></li>
+            <li><a class="dropdown-item" href="./TetrisJS/index.html"><b>TetrisJS</b> by Neil Barkhina</a></li>
+            <li><a class="dropdown-item" href="https://webosu-new.pages.dev/" target="_blank"><b>webosu!</b> by BlaNKtext</a></li>
           </ul>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
@@ -51,12 +58,28 @@
             See below for all the pages hosted here for easy access!<br>
 		  </p>
           <hr>
-          <p>
-            Link 1
-          </p>
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>USD - Home</h3>
+                    <ul>
+                        <li><a href="./index.html"><strong>Home</strong></a></li>   
+                        <li><a href="#"><strong>Sitemap</strong></a></li>
+                        <li><strong>Games</strong></li>
+                        <ul>
+                            <li><a href="./2048/index.html">2048</a></li>
+                            <li><a href="./Astray/index.html">Astray</a> (Infinite rolling ball maze game)</li>
+                            <li><a href="./Hextris/index.html">Hextris</a> (Color block stacking game)</li>
+                            <li><a href="https://reactle.vercel.app/">Reactle</a> <span class="badge text-bg-warning">External</span> (Wordle clone made with React) </li>
+                            <li><a href="./TetrisJS/index.html">TetrisJS</a></li>
+                            <li><a href="https://webosu-new.pages.dev/" target="_blank">webosu!</a> <span class="badge text-bg-secondary">Opens in a new tab</span> (Online osu! clone)</li>
+                        </ul>
+    	            </ul>   
+                </div>
+            </div>
+        </div>
         </div>
       </div>
     </div>
-    <script src="./js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
   </body>
 </html>

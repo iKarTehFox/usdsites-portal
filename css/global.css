@@ -1,1 +1,6 @@
-body { padding-top: 70px; }
+body {
+  padding-top: 70px;
+}
+.prevent-selection {
+  user-select: none;
+}
