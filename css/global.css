@@ -4,3 +4,12 @@ body {
 .prevent-selection {
   user-select: none;
 }
+.hidden {
+  display: none;
+}
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
