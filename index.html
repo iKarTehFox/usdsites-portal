@@ -4,11 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>USD - Home</title>
+        <!-- CSS -->
         <link href="./css/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css" rel="stylesheet">
         <link href="./css/global.css" rel="stylesheet">
+        <!-- JS -->
         <script src="./js/code.iconify.design_iconify-icon_1.0.7_iconify-icon.min.js"></script>
         <script src="./js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
         <script src="./js/global.js" defer></script>
+        <script src="./js/bs-tooltips.js" defer></script>
+        <script src="./js/index-cards.js"></script>
+        <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -28,9 +33,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sitemap.html">Sitemap</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./speedtest.html">Speed test by OpenSpeedtest.com</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Games
@@ -42,6 +44,15 @@
                             <li><a class="dropdown-item" href="https://reactle.vercel.app/"><b>Reactle</b> by Chase Wackerfuss <span class="badge text-bg-warning">External</span></a></li>
                             <li><a class="dropdown-item" href="./games/TetrisJS/index.html"><b>TetrisJS</b> by Neil Barkhina</a></li>
                             <li><a class="dropdown-item" href="https://webosu-new.pages.dev/" target="_blank"><b>webosu!</b> by BlaNKtext</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tools
+                        </a>
+                        <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="./tools/speedtest.html">Speed test by OpenSpeedtest.com</a>
+                            <li><a class="dropdown-item" href="https://usd-web-clock.pages.dev/">Web Clock</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -91,7 +102,7 @@
                                 <p>
                                     Of course! This is open to anyone who wants access.
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary" id="copylink-button" data-bs-toggle="tooltip" data-bs-title="Click me to copy link to clipboard!" data-bs-placement="right" onClick="copyText('https://usefulsitesdashboard.pages.dev/')" disabled>Copy link</button>
+                                <button type="button" class="btn btn-outline-secondary" id="copylink-button" data-bs-toggle="tooltip" data-bs-title="Click to copy link to clipboard" data-bs-placement="top" onClick="copyText('https://usefulsitesdashboard.pages.dev/')" disabled>Copy link</button>
                             </div>
                             <div class="col-md-6 col-lg-4 mb-4">
                                 <h6 class="mb-3 text-primary"><iconify-icon icon="mdi:information"></iconify-icon> I need help and clarification/I have a suggestion!</h6>
