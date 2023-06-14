@@ -7,4 +7,5 @@ Astray by Rye Terrell ([Github](https://github.com/wwwtyro/Astray))<br>
 Hextris by Logan Engstrom, and more ([Github](https://github.com/Hextris/hextris))<br>
 OpenSpeedtest embed from [OpenSpeedtest.com](https://OpenSpeedtest.com)<br>
 TetrisJS by Neil Barkhina ([Github](https://github.com/nbarkhina/TetrisJS))<br>
+online-clock by Tareq Al-Masri ([Github](https://github.com/tmasri/online-clock))<br>
 webosu by BlaNKtext ([Github](https://github.com/BlaNKtext/webosu))
