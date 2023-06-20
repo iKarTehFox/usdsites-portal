@@ -24,7 +24,7 @@ function scrollToTop() {
 // Last updated text navbar function
 function updateLastUpdatedText() {
   const lastUpdated = new Date();
-  lastUpdated.setTime(1686832325485);
+  lastUpdated.setTime(1687242421526);
   const currentDate = new Date();
   const timeDifference = Math.floor((currentDate - lastUpdated) / (1000 * 60 * 60));
 
