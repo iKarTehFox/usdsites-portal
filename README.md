@@ -7,8 +7,10 @@
 
  Bootstrap ([Link](https://getbootstrap.com/))
  - Licensed under MIT License
+ 
  Iconify ([Link](https://iconify.design))
  - Licensed under MIT License
+ 
  Material Design Icons by Pictogrammers ([GitHub](https://github.com/Templarian/MaterialDesign))
  - Licensed under Apache License 2.0
  
